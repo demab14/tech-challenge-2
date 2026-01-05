@@ -22,3 +22,13 @@ crash.*.log
 *.tfvars
 .terraformrc
 terraform.rc
+
+# Terraform (DO NOT COMMIT)
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+.terraformrc
+terraform.rc

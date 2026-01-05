@@ -32,3 +32,8 @@ crash.*.log
 *.tfvars
 .terraformrc
 terraform.rc
+
+# Local build/state artifacts
+terraform/*.tfstate
+terraform/*.tfstate.*
+frontend/*.log

@@ -37,3 +37,10 @@ terraform.rc
 terraform/*.tfstate
 terraform/*.tfstate.*
 frontend/*.log
+
+# Terraform safety
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
